@@ -1,0 +1,80 @@
+{
+  "name": "my1-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "6.5.95",
+    "axios": "0.24.0",
+    "core-js": "3.19.3",
+    "lodash": "4.17.21",
+    "vue": "2.6.14",
+    "vue-class-component": "7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "3.5.4",
+    "vuedraggable": "2.24.3",
+    "vuetify": "2.6.12",
+    "vuex": "3.6.2",
+    "vuex-class": "0.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.14.177",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "4.5.19",
+    "@vue/cli-plugin-eslint": "4.5.19",
+    "@vue/cli-plugin-router": "4.5.19",
+    "@vue/cli-plugin-typescript": "~4.5.19",
+    "@vue/cli-plugin-vuex": "~4.5.19",
+    "@vue/cli-service": "4.5.19",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.1.0",
+    "es5-ext": "0.10.53",
+    "eslint": "7.32.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-import-helpers": "1.2.1",
+    "eslint-plugin-import-newlines": "1.2.3",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.2.0",
+    "eslint-plugin-standard": "5.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest": "27.5.1",
+    "sass": "1.32.13",
+    "sass-loader": "10.2.1",
+    "ts-jest": "27.1.5",
+    "tslib": "2.3.1",
+    "typescript": "4.5.5",
+    "vue-cli-plugin-lodash": "~0.1.4",
+    "vue-cli-plugin-vuetify": "2.4.8",
+    "vue-property-decorator": "9.1.2",
+    "vue-template-compiler": "2.6.14",
+    "vuetify-loader": "1.7.3",
+    "vuex-module-decorators": "^1.2.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript"
+    ],
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
